@@ -1,0 +1,19 @@
+{
+  "name": "musicmetadata",
+  "version": "1.0.0",
+  "description": "Herramienta de consola para editar metadata de archivos MP3",
+  "main": "src/index.js",
+  "bin": {
+    "musicmetadata": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["mp3", "metadata", "music", "cli"],
+  "author": "Yerson",
+  "license": "MIT",
+  "dependencies": {
+    "music-metadata": "^7.14.0",
+    "node-id3": "^0.2.6"
+  }
+}
